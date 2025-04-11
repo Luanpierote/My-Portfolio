@@ -8,9 +8,7 @@ height:100vh;
 margin: 0;
 background: url("imagens/background.png");
 background-size: cover; 
-
 position:relative;
-height: 980px; 
 
 } 
 
@@ -69,8 +67,9 @@ color: white;
 
 #about{ /*Alterações Graficas da Sessão Sobre*/
     background-color: #f3f3d8;
-    position: relative;
-    height: 470px;
+    width: 100%;
+    min-height: 70vh;
+    
 }
 
 #about hr{ /*Formatação da Tabela de Separação entre as Sessões*/
@@ -81,7 +80,9 @@ color: white;
 
 #services{ /*Alterações Graficas da Sessão Serviços*/
     background-color: #f3f3d8;
-    height: 700px;
+    width:100%;
+    min-height:100vh;
+    
 }
 
 #services hr{ /*Formatação da Tabela de Separação entre as Sessões*/
@@ -93,6 +94,7 @@ color: white;
 .card-body{ /* Alterações Visuais Dos Cards de Service */
     background-color: #bed9c8;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 #Contact{
@@ -108,6 +110,7 @@ color: white;
     padding: 20px; /* Exemplo: alterando o padding */
     font-size: 18px; /* Exemplo: alterando o tamanho da fonte */
     border-radius: 5px; /* Exemplo: arredondando os cantos */
+    cursor: pointer;
 }
 
 
