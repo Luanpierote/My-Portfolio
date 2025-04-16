@@ -113,8 +113,23 @@ color: white;
     cursor: pointer;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 
+a{
+    text-decoration: none !important;
+    
+}
+
+.github-text{
+    color: black !important;    
+}
+
+.bi.bi-github{ 
+    color: black;
+}
 
 p1{ 
     font-size: large;

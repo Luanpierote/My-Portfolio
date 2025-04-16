@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Portfólio</title>
 
     <link rel="stylesheet" href="style.css">
@@ -40,16 +40,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
+                        <a class="nav-link" href="#about">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
+                        <a class="nav-link" href="#services">Serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
+                        <a class="nav-link" href="#Contact">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -85,13 +85,13 @@
                     <p2><em> Olá, eu sou o <green>Luan Pierote.</green></em></p2>
                     <div class="row mt-3">
                         <div class="col-md-6">
-                            
-                                <ul>
-                                    <li>Name: Luan Pierote</li>
-                                    <li>Idade: 19</li>
-                                    <li>Atuação: Web Developer</li>
-                                </ul>
-                            
+
+                            <ul>
+                                <li>Name: Luan Pierote</li>
+                                <li>Idade: 19</li>
+                                <li>Atuação: Web Developer</li>
+                            </ul>
+
                         </div> <!-- Pode repetir a div da coluna -->
                     </div>
                     <div class="row mt-3">
@@ -183,7 +183,19 @@
                         <div class="card-body">
                             <i class="fas servicesIcon fa-clock"></i>
                             <h4 class="card-title mt-3">
-                                <i class="bi bi-whatsapp"></i>WhatsApp
+                                <i class="bi bi-whatsapp"></i>WhatsApp:<p2>  (55) 7198109-1111</p2>
+                            </h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">
+                                <a href="https://encurtador.com.br/ElnfU" target="_blank"><i
+                                        class="bi bi-linkedin"></i>Linkedin</a>
                             </h4>
                         </div>
                     </div>
@@ -193,17 +205,7 @@
                         <div class="card-body">
                             <i class="fas servicesIcon fa-clock"></i>
                             <h4 class="card-title mt-3">
-                                <i class="bi bi-linkedin"></i>Linkedin
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class="fas servicesIcon fa-clock"></i>
-                            <h4 class="card-title mt-3">
-                                <i class="bi bi-github"></i>GitHub
+                                <a href="https://github.com/Luanpierote" target="_blank"><i class="bi bi-github" ></i><span class="github-text">GitHub</span></a>
                             </h4>
                         </div>
                     </div>
@@ -211,6 +213,12 @@
 
             </div>
     </section>
+
+    <script>
+        window.addEventListener("hashchange", () => {
+          history.replaceState(null, null, window.location.pathname); //alteração de evento do site que permite que a minha página recarregue para o seu estado original 
+        });
+      </script>
 
 </body>
 
