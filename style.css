@@ -14,8 +14,10 @@ position:relative;
 
 /* Alterações Visuais do Título em Destaque*/
 .hero_title { 
+font-family: "Oswald", sans-serif; 
 font-size: 4.5rem; 
 border: 2px solid #000; /* Define a borda (2px, sólida, cor preta) */
+background-color: rgba(0, 0, 0, 0.6); /* preto com 60% de opacidade */
 padding: 5px;           /* Adiciona um pouco de espaçamento entre a borda e o texto */
 display: inline-block;  /* Faz o texto comportar-se como um bloco para aceitar borda */
 font-size: 48px;             /* Define o tamanho da fonte */
@@ -28,12 +30,15 @@ text-shadow:
     -1px 1px 0 black;        /* Borda inferior esquerda (branca) */
 } 
 .hero_desc { /*Alterações Visuais da Descrição em Destaque */
+font-family: "Oswald", sans-serif;    
 font-size: 2rem; 
+font-weight: 600;
+
 text-shadow: 
-    1px 1px 0 black,         /* Borda superior esquerda (branca) */
-    -1px -1px 0 black,       /* Borda inferior direita (branca) */
-    1px -1px 0 black,        /* Borda superior direita (branca) */
-    -1px 1px 0 black;        /* Borda inferior esquerda (branca) */
+    1px 1px 0 rgb(0, 0, 0),         /* Borda superior esquerda (branca) */
+    -1px -1px 0 rgb(120, 185, 125),       /* Borda inferior direita (branca) */
+    1px -1px 0 rgb(120, 185, 125),          /* Borda superior direita (branca) */
+    -1px 1px 0 rgb(0, 0, 0);        /* Borda inferior esquerda (branca) */
 } 
 
 .hero-text { /* Container da Mensagem em Destaque */
@@ -111,6 +116,7 @@ color: white;
     font-size: 18px; /* Exemplo: alterando o tamanho da fonte */
     border-radius: 5px; /* Exemplo: arredondando os cantos */
     cursor: pointer;
+    
 }
 
 html{
@@ -124,7 +130,14 @@ a{
 }
 
 .github-text{
-    color: black !important;    
+    color: black !important;  
+    display: inline-block; 
+     
+}
+
+.linkedin-text{
+     display: inline-block;
+     background-color: #000;
 }
 
 .bi.bi-github{ 
