@@ -1,64 +1,87 @@
-.minha-navbar { /*Menu Bootstrap Separando as Sessões da Página */
-    background-color: #f3f3d8; /* ou a cor que você quiser */
+.minha-navbar {
+    /*Menu Bootstrap Separando as Sessões da Página */
+    background-color: #f3f3d8;
+    /* ou a cor que você quiser */
     padding: 0.5rem 1rem;
-  }
-
-.bgimage { /*Imagem do Background da Mensagem em Destaque */
-height:100vh; 
-margin: 0;
-background: url("imagens/background.png");
-background-size: cover; 
-position:relative;
-
-} 
-
-/* Alterações Visuais do Título em Destaque*/
-.hero_title { 
-font-family: "Oswald", sans-serif; 
-font-size: 4.5rem; 
-border: 2px solid #000; /* Define a borda (2px, sólida, cor preta) */
-background-color: rgba(0, 0, 0, 0.6); /* preto com 60% de opacidade */
-padding: 5px;           /* Adiciona um pouco de espaçamento entre a borda e o texto */
-display: inline-block;  /* Faz o texto comportar-se como um bloco para aceitar borda */
-font-size: 48px;             /* Define o tamanho da fonte */
-font-weight: bold;           /* Torna o texto em negrito */
-color: white;                /* Cor do texto (preto) */
-text-shadow: 
-    1px 1px 0 black,         /* Borda superior esquerda (branca) */
-    -1px -1px 0 black,       /* Borda inferior direita (branca) */
-    1px -1px 0 black,        /* Borda superior direita (branca) */
-    -1px 1px 0 black;        /* Borda inferior esquerda (branca) */
-} 
-.hero_desc { /*Alterações Visuais da Descrição em Destaque */
-font-family: "Oswald", sans-serif;    
-font-size: 2rem; 
-font-weight: 600;
-
-text-shadow: 
-    1px 1px 0 rgb(0, 0, 0),         /* Borda superior esquerda (branca) */
-    -1px -1px 0 rgb(120, 185, 125),       /* Borda inferior direita (branca) */
-    1px -1px 0 rgb(120, 185, 125),          /* Borda superior direita (branca) */
-    -1px 1px 0 rgb(0, 0, 0);        /* Borda inferior esquerda (branca) */
-} 
-
-.hero-text { /* Container da Mensagem em Destaque */
-text-align: center; 
-position: absolute; 
-top: 50%; 
-left: 50%; 
-transform: translate(-50%,-50%); 
-color: white; 
 }
 
-.imageAboutPage{ /* Minha Foto de Perfil */
+.bgimage {
+    /*Imagem do Background da Mensagem em Destaque */
+    height: 100vh;
+    margin: 0;
+    background: url("imagens/background.png");
+    background-size: cover;
+    position: relative;
+
+}
+
+/* Alterações Visuais do Título em Destaque*/
+.hero_title {
+    font-family: "Oswald", sans-serif;
+    font-size: 4.5rem;
+    border: 2px solid #000;
+    /* Define a borda (2px, sólida, cor preta) */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* preto com 60% de opacidade */
+    padding: 5px;
+    /* Adiciona um pouco de espaçamento entre a borda e o texto */
+    display: inline-block;
+    /* Faz o texto comportar-se como um bloco para aceitar borda */
+    font-size: 48px;
+    /* Define o tamanho da fonte */
+    font-weight: bold;
+    /* Torna o texto em negrito */
+    color: white;
+    /* Cor do texto (preto) */
+    text-shadow:
+        1px 1px 0 black,
+        /* Borda superior esquerda (branca) */
+        -1px -1px 0 black,
+        /* Borda inferior direita (branca) */
+        1px -1px 0 black,
+        /* Borda superior direita (branca) */
+        -1px 1px 0 black;
+    /* Borda inferior esquerda (branca) */
+}
+
+.hero_desc {
+    /*Alterações Visuais da Descrição em Destaque */
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+
+    text-shadow:
+        1px 1px 0 rgb(0, 0, 0),
+        /* Borda superior esquerda (branca) */
+        -1px -1px 0 rgb(120, 185, 125),
+        /* Borda inferior direita (branca) */
+        1px -1px 0 rgb(120, 185, 125),
+        /* Borda superior direita (branca) */
+        -1px 1px 0 rgb(0, 0, 0);
+    /* Borda inferior esquerda (branca) */
+}
+
+.hero-text {
+    /* Container da Mensagem em Destaque */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageAboutPage {
+    /* Minha Foto de Perfil */
     height: 300px;
     width: 500px;
     object-fit: cover;
-    
-   
+
+
 }
 
-.container-circle{ /* Borda Sombreada da minha Foto */
+.container-circle {
+    /* Borda Sombreada da minha Foto */
     height: 300px;
     width: 300px;
     display: flex;
@@ -67,92 +90,129 @@ color: white;
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     margin-top: -30px;
-    
+
 }
 
-#about{ /*Alterações Graficas da Sessão Sobre*/
+#about {
+    /*Alterações Graficas da Sessão Sobre*/
+    background-color: #f3f3d8;
+    width: 100%;
+    min-height: 50vh;
+
+}
+
+#about hr {
+    /*Formatação da Tabela de Separação entre as Sessões*/
+    margin-top: 0;
+    border: 3px solid #000;
+    /* Aumenta a espessura e define a cor da borda */
+    width: 100%;
+    /* Faz o <hr> ocupar toda a largura disponível */
+}
+
+#services {
+    /*Alterações Graficas da Sessão Serviços*/
     background-color: #f3f3d8;
     width: 100%;
     min-height: 70vh;
-    
+
 }
 
-#about hr{ /*Formatação da Tabela de Separação entre as Sessões*/
+#services hr {
+    /*Formatação da Tabela de Separação entre as Sessões*/
     margin-top: 0;
-    border: 3px solid #000; /* Aumenta a espessura e define a cor da borda */
-    width: 100%; /* Faz o <hr> ocupar toda a largura disponível */
+    border: 3px medium #000;
+    /* Aumenta a espessura e define a cor da borda */
+    width: 100%;
+    /* Faz o <hr> ocupar toda a largura disponível */
 }
 
-#services{ /*Alterações Graficas da Sessão Serviços*/
+#portfolio {
     background-color: #f3f3d8;
-    width:100%;
-    min-height:100vh;
-    
+    min-height: 70vh;
+
+    .card-text {
+        margin-left: 6%;
+        max-width: 320px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .list-group-item{
+        background-color: #bed9c8;
+        
+    }
+    border: #000 2px;
+  
+
+    .card-img-top {
+        cursor: pointer;
+    }
 }
 
-#services hr{ /*Formatação da Tabela de Separação entre as Sessões*/
-    margin-top: 0;
-    border: 3px medium #000; /* Aumenta a espessura e define a cor da borda */
-    width: 100%; /* Faz o <hr> ocupar toda a largura disponível */
-}
-
-.card-body{ /* Alterações Visuais Dos Cards de Service */
+.card-body {
+    /* Alterações Visuais Dos Cards de Service */
     background-color: #bed9c8;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+
 }
 
-#Contact{
+#Contact {
     background-color: #f3f3d8;
     position: relative;
-    height: 500px;
+    min-height: 30vh;
 
 }
 
 #Contact .card-body {
-    background-color: #f3f3d8; /* Exemplo: alterando a cor de fundo */
+    background-color: #f3f3d8;
+    /* Exemplo: alterando a cor de fundo */
     opacity: 0.7;
-    padding: 20px; /* Exemplo: alterando o padding */
-    font-size: 18px; /* Exemplo: alterando o tamanho da fonte */
-    border-radius: 5px; /* Exemplo: arredondando os cantos */
+    padding: 20px;
+    /* Exemplo: alterando o padding */
+    font-size: 18px;
+    /* Exemplo: alterando o tamanho da fonte */
+    border-radius: 5px;
+    /* Exemplo: arredondando os cantos */
     cursor: pointer;
-    
+
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 
-a{
+a {
     text-decoration: none !important;
-    
+
 }
 
-.github-text{
-    color: black !important;  
-    display: inline-block; 
-     
+.github-text {
+    color: black !important;
+    display: inline-block;
+
 }
 
-.linkedin-text{
-     display: inline-block;
+.linkedin-text {
+    display: inline-block;
 }
 
-.bi.bi-github{ 
+.bi.bi-github {
     color: black;
 }
 
-p1{ 
+p1 {
     font-size: large;
 }
 
-p2{
+p2 {
     font-size: large;
-    
+
 }
 
-green{ 
+green {
     color: green;
 }
-
